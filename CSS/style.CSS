@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: navy;
+  background-image: url(../images/Admiralty-University-of-Nigeria-adun.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* cover,contain */
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+  color: white;
+}
+.myclass{
+  background-color: navy;
+  color: white;
+}
+
+#myid{
+  background-color: purple;
+  color: rgb(255,255,255);
+}
+
+h2, h3{
+  color: #fff;
+}
+
+form{
+  width: 50%;
+  background-color: brown;
+
+}
+
+input[type="text "]{
+  width: 100%;
+  margin: 10px 5px;
+}
+
+.par span{
+  color: yellow;
+
+}
+#par2 > span{
+  color: white;
+
+}
+.btn{
+  background-color: gray;
+  color: green;
+
+}
+.btn:hover{
+background-color: pink;
+color: #fff;
+}
+
+.box{
+  height: 30rem;
+  width: 34rem;
+  background-color: yellowgreen;
+  margin: 20px;
+  color: red;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: gray;
+  text-decoration-style: double;
+}
+
+.link1{
+  text-decoration: none;
+  color: white;
+  /* lowercase, uppercase,capitalize */
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-shadow: 2px 2px 2px red;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.link2{
+  text-decoration: none;
+  padding: 20px 30px;
+  background: red;
+  color: #fff;
+  border-radius: 15px;
+  border: 1px solid green;
+  font: 18px;
+  text-transform: uppercase;
+}
+
+.link2:hover{
+  background: #fff;
+  color: purple;
+  border: 10px solid green;
+  transition: .3s ease-in;
+}
+
+.link3{
+  text-decoration: none;
+  padding: 20px 30px;
+  background: #fff;
+  color: red;
+  border-radius: 35px;
+  border: 1px solid green;
+  font-size: 28px;
+}
+
+.ccc{
+  width: 250px;
+  height: 250px;
+  background: orangered;
+  border-style: dotted;
+  border-width: 10px;
+  border-color: yellowgreen;
+}
+
+.ddd{
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  background: orangered;
+  border-left-style: dotted;
+  border-color: yellowgreen;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.eee{
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  background: orangered;
+  border-left-style: dotted;
+  border-width: 10px;
+  border-color: yellow;
+  border-radius: 10%;
+}
+
+  /* table style */
+table{
+  width: 100px;
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+td, th{
+  border: 1px solid #fff;
+  padding: 20px 1opx;
+  text-align: center;
+
+}
+th{
+  background-color: #dd3ddd;
+  color: #fff;
+
+}
+th:hover{
+  background: navy;
+
+}
+tr{
+  background-color: #e3e3e3;
+
+}
+tr:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
