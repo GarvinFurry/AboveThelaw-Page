@@ -1,0 +1,76 @@
+/* styling the form */
+.container{
+  background: #363636;
+  height: 900px;
+}
+form{
+  background: #fff;
+  padding: 20px;
+  margin: 0 auto;
+  width: 40%;
+  position: relative;
+  top: 100px;
+  border-radius: 15px;
+}
+.title{
+  text-align: center;
+  padding: 15px 0;
+}
+.form-group{
+  /* width: 100%; */
+  padding: 10PX 0;
+}
+label{
+  font-weight: bold;
+}
+.form-control{
+  width: 100%;
+  margin: 4px 0;
+  padding: 15px 10px;
+  font-size: 20px;
+}
+.btn{
+  width: 100px;
+  padding: 15px 5px;
+  background-color: #363636;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+}
+input[type="text"]:focus{
+  background-color: gray;
+  color: #fff;
+}
+input[type="email"]{
+  background: url();
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  padding: 15px 15px 10px 50px;
+}
+select{
+  width: 100px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #363636;
+}
+@media(max-width:900px){
+  .container{
+    background: black;
+
+  }
+  form{
+    width: 70%;
+
+  }
+
+}
+@media(max-width:600px){
+  .container{
+    background: yellowgreen;
+
+  }
+  form{
+    width: 70%;
+  }
+}
